@@ -1,0 +1,453 @@
+body {
+    font-family: "roboto";
+    font-weight: 400px;
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .heading {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
+  
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .nav {
+    display: flex;
+  }
+  
+  .headweb {
+    color: rgb(0, 0, 0);
+    /* WebStudio */
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    right: 1240px;
+    top: 24px;
+    bottom: 25px;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 3%;
+    text-align: left;
+  }
+  
+  .span {
+    color: rgb(33, 150, 243);
+  }
+  
+  .li0 {
+    margin-right: 32px;
+  }
+  
+  .li1:not(:last-child) {
+    display: flex;
+    padding-top: 10px;
+    margin-left: 50px;
+  }
+  
+  .li2:not(:last-child) {
+    display: flex;
+    margin-right: 50px;
+    margin-left: 344px;
+  }
+  
+  .li2 {
+    padding-top: 10px;
+  }
+  
+  .txtstudio {
+    color: rgb(33, 150, 243);
+    width: 45px;
+    height: 16px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 2%;
+    text-align: left;
+    width: 45px;
+    height: 16px;
+  }
+  
+  .txtportfolio {
+    color: rgb(33, 33, 33);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 2%;
+    text-align: left;
+    width: 72px;
+    height: 16px;
+  }
+  
+  .txtcontacnts {
+    color: rgb(33, 33, 33);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 2%;
+    text-align: left;
+    width: 64px;
+    height: 16px;
+  }
+  
+  .gmail1 {
+    color: rgb(33, 150, 243);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 2%;
+    text-align: left;
+    width: 135px;
+    height: 16px;
+  }
+  
+  .tel1 {
+    color: rgb(117, 117, 117);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 2%;
+    text-align: left;
+    width: 122px;
+    height: 16px;
+  }
+  
+  .section2 {
+    background-color: rgba(47, 48, 58, 1);
+    height: 600px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .htxt {
+    /* Ефективні рішення для вашого бізнесу */
+    text-align: center;
+    color: #fff;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px; /* 136.364% */
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    width: 696px;
+    flex-shrink: 0;
+    margin: 0 auto;
+  }
+  
+  .button {
+    color: #fff;
+    text-align: center;
+    margin-left: 470px;
+    margin-top: 30px;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.96px;
+    width: 216px;
+    height: 50px;
+    border-radius: 4px;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
+  
+  .ul3 {
+    display: flex;
+    padding-top: 94px;
+  }
+  
+  .lititle:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .title1 {
+    color: rgb(33, 33, 33);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 3%;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+  }
+  
+  .texttitle1 {
+    /* Ідейні міркування, і навіть початок повсякденної роботи з формування позиції. */
+    color: rgb(117, 117, 117);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 3%;
+    text-align: left;
+    width: 270px;
+    height: 72px;
+  }
+  
+  .texttitle2 {
+    /* Завдання організації, особливо рамки і місце навчання кадрів тягне у себе. */
+    width: 270px;
+    height: 48px;
+    color: rgb(117, 117, 117);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 3%;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .texttitle2 i {
+    display: block; /* Робить букву "і" блоковим елементом, що переносить його на новий рядок */
+  }
+  
+  .texttitle3 {
+    /* Так само консультація з широким активом значною мірою зумовлює. */
+    width: 270px;
+    height: 48px;
+    left: 815px;
+    color: rgb(117, 117, 117);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 3%;
+    text-align: left;
+  }
+  
+  .texttitle4 {
+    /* Значимість цих проблем настільки очевидна, що реалізація планових завдань. */
+  
+    width: 270px;
+    height: 72px;
+    color: rgb(117, 117, 117);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 3%;
+    text-align: left;
+  }
+  
+  .section4 {
+    display: flex;
+  }
+  
+  .htxt2 {
+    text-align: center;
+    padding-top: 94px;
+    width: 366px;
+    height: 42px;
+    color: rgb(33, 33, 33);
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 3%;
+    margin: 0 auto;
+  }
+  
+  .imgdo {
+    display: flex;
+    margin-top: 92px;
+    padding-bottom: 94px;
+  }
+  
+  .photodo:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .section5 {
+    background-color: rgb(245, 244, 250);
+    height: 648px;
+  }
+  
+  .command {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 94px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 3%;
+    width: 264px;
+    height: 42px;
+    color: rgb(33, 33, 33);
+    font-family: Roboto;
+  }
+  
+  .photopeople {
+    display: flex;
+    margin-top: 100px;
+    height: 368px;
+  }
+  
+  .photopeople:not(:last-child) {
+    margin-bottom: 30px; /* Додайте потрібний вам інтервал між секціями */
+  }
+  
+  .imgpeople:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .imgpeople {
+    display: inline-block;
+    width: 270px; /* Ширина карточки */
+    text-align: center;
+    border-radius: 0px 0px 4px 4px;
+    background: rgb(255, 255, 255);
+  }
+  
+  .name {
+    margin-top: 30px;
+    font-family: Roboto;
+    font-size: 16px;
+    letter-spacing: 3%;
+    font-weight: 500;
+  }
+  
+  .imgolga {
+  }
+  
+  .textigor {
+    margin-top: 10px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 3%;
+    color: rgb(117, 117, 117);
+  }
+  
+  .textolga {
+    margin-top: 10px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 3%;
+    color: rgb(117, 117, 117);
+  }
+  
+  .texttarasov {
+    margin-top: 10px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 3%;
+    color: rgb(117, 117, 117);
+  }
+  
+  .textmiha {
+    margin-top: 10px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 3%;
+    color: rgb(117, 117, 117);
+  }
+  
+  .infofooter {
+    background-color: rgba(47, 48, 58, 1);
+    height: 252px;
+  }
+  
+  .lifoot {
+    padding-top: 60px;
+  }
+  
+  .footweb {
+    /* WebStudio */
+    color: rgb(255, 255, 255);
+    font: Raleway;
+    line-height: 31px;
+    letter-spacing: 3%;
+    text-align: left;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    right: 1240px;
+    top: 24px;
+    bottom: 25px;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+  }
+  
+  .spanfooter {
+    color: rgb(33, 150, 243);
+  }
+  
+  .lifoot {
+    padding-top: 60px;
+  }
+  
+  address {
+    font-style: normal;
+  }
+  
+  .lifoot2 {
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+  }
+  
+  .lifoot3 {
+    margin-top: 9px;
+  }
+  
+  .lifoot4 {
+    margin-top: 11px;
+  }
+  
+  .gmail {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 3%;
+  }
+  
+  .tel {
+    margin-top: 9px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 3%;
+  }
+  
+  .address {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 3%;
+    text-align: left;
+    width: 231px;
+    height: 21px;
+  }
