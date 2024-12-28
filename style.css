@@ -110,6 +110,9 @@ body {
     text-align: left;
     width: 135px;
     height: 16px;
+   
+    
+   
   }
   
   .tel1 {
@@ -170,6 +173,11 @@ body {
     cursor: pointer;
   }
   
+  .button:hover{
+    background: #2370af;
+
+  }
+
   .ul3 {
     display: flex;
     padding-top: 94px;
@@ -192,7 +200,7 @@ body {
   }
   
   .texttitle1 {
-    /* Ідейні міркування, і навіть початок повсякденної роботи з формування позиції. */
+  
     color: rgb(117, 117, 117);
     font-family: Roboto;
     font-size: 14px;
@@ -205,7 +213,7 @@ body {
   }
   
   .texttitle2 {
-    /* Завдання організації, особливо рамки і місце навчання кадрів тягне у себе. */
+  
     width: 270px;
     height: 48px;
     color: rgb(117, 117, 117);
@@ -220,11 +228,11 @@ body {
   }
   
   .texttitle2 i {
-    display: block; /* Робить букву "і" блоковим елементом, що переносить його на новий рядок */
+    display: block; 
   }
   
   .texttitle3 {
-    /* Так само консультація з широким активом значною мірою зумовлює. */
+    
     width: 270px;
     height: 48px;
     left: 815px;
@@ -238,7 +246,7 @@ body {
   }
   
   .texttitle4 {
-    /* Значимість цих проблем настільки очевидна, що реалізація планових завдань. */
+  
   
     width: 270px;
     height: 72px;
@@ -304,7 +312,7 @@ body {
   }
   
   .photopeople:not(:last-child) {
-    margin-bottom: 30px; /* Додайте потрібний вам інтервал між секціями */
+    margin-bottom: 30px;
   }
   
   .imgpeople:not(:last-child) {
@@ -406,7 +414,7 @@ body {
     padding-top: 60px;
   }
   
-  address {
+  .address {
     font-style: normal;
   }
   
@@ -450,4 +458,14 @@ body {
     text-align: left;
     width: 231px;
     height: 21px;
+  }
+
+  .icongmail{
+    fill: rgb(33, 150, 243);
+  
+    
+  }
+
+  .icongmail:hover{
+    fill: rgb(117, 117, 117);
   }
